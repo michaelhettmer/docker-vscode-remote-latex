@@ -1,0 +1,37 @@
+{
+  "name": "docker-vscode-remote-latex",
+  "version": "1.1.7",
+  "description": "empty description",
+  "keywords": [
+    "docker"
+  ],
+  "author": "MichaelHettmer",
+  "license": "MIT",
+  "homepage": "https://github.com/MichaelHettmer/docker-docker-vscode-remote-latex#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichaelHettmer/docker-docker-vscode-remote-latex.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MichaelHettmer/docker-docker-vscode-remote-latex/issues"
+  },
+  "scripts": {
+    "commitlint": "commitlint",
+    "commitlint:ci": "commitlint-circle"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@commitlint/cli": "8.3.5",
+    "@commitlint/config-conventional": "8.3.4",
+    "@semantic-release/changelog": "5.0.1",
+    "@semantic-release/git": "9.0.0",
+    "commitlint-circle": "1.0.0",
+    "husky": "4.2.5",
+    "lint-staged": "10.1.3",
+    "semantic-release": "17.0.6",
+    "semantic-release-docker": "2.2.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  }
+}
