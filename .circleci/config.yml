@@ -71,6 +71,7 @@ workflows:
           requires:
             - docker/hadolint
       - release:
+          context: docker
           requires:
             - build
           filters:
