@@ -8,5 +8,6 @@
   },
   "git.inputValidationSubjectLength": 72,
   "git.inputValidationLength": 72,
-  "git.inputValidation": "warn"
+  "git.inputValidation": "warn",
+  "scm.alwaysShowRepositories": true
 }
