@@ -7,12 +7,10 @@ LABEL description="Docker image for LaTeX editing in a VSCode remote container"
 RUN cpan -i Log::Dispatch::File YAML::Tiny File::HomeDir Log::Log4perl
 
 # add gpg support to enable git commit signing
-RUN apt-get update && apt-get install gnupg2 -y
-
+RUN apt-get update && apt-get install gnupg2 -y --no-install-recommends \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
+    
 # remove predefined gitconfig to get local host gitconfig
 RUN rm -rf /root/.gitconfig
 
-# clean apt cache and delete apt-lists
-RUN apt-get update && apt-get install -y python \
-    && apt-get clean \
-    && rm -rf /var/lib/apt/lists/*
