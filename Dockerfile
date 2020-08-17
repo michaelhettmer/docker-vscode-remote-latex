@@ -11,3 +11,8 @@ RUN apt-get update && apt-get install gnupg2 -y
 
 # remove predefined gitconfig to get local host gitconfig
 RUN rm -rf /root/.gitconfig
+
+# clean apt cache and delete apt-lists
+RUN apt-get update && apt-get install -y python \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
