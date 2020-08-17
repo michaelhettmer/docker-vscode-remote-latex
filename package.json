@@ -7,13 +7,13 @@
   ],
   "author": "MichaelHettmer",
   "license": "MIT",
-  "homepage": "https://github.com/MichaelHettmer/docker-docker-vscode-remote-latex#readme",
+  "homepage": "https://github.com/MichaelHettmer/docker-vscode-remote-latex#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MichaelHettmer/docker-docker-vscode-remote-latex.git"
+    "url": "git+https://github.com/MichaelHettmer/docker-vscode-remote-latex.git"
   },
   "bugs": {
-    "url": "https://github.com/MichaelHettmer/docker-docker-vscode-remote-latex/issues"
+    "url": "https://github.com/MichaelHettmer/docker-vscode-remote-latex/issues"
   },
   "scripts": {
     "commitlint": "commitlint",

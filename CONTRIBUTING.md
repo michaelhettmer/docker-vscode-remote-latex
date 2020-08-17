@@ -28,7 +28,7 @@ There is a dedicated channel per project for discussions and extensive new featu
 
 Found a bug? Create a GitHub issue and add as much details as possible by using the provided template to help me understand and fix the issue as fast as I can.
 
-[![GitHub issues](https://img.shields.io/github/issues/MichaelHettmer/docker-docker-vscode-remote-latex)](https://github.com/MichaelHettmer/docker-docker-vscode-remote-latex/issues/new?assignees=&labels=&template=bug_report.md&title=)
+[![GitHub issues](https://img.shields.io/github/issues/MichaelHettmer/docker-vscode-remote-latex)](https://github.com/MichaelHettmer/docker-vscode-remote-latex/issues/new?assignees=&labels=&template=bug_report.md&title=)
 
 ## Code and documentation contributions
 
@@ -36,7 +36,7 @@ Do you want to contribute a big new feature or a substantial, possibly breaking 
 
 Fixes, documentation and smaller code contributions are also very welcome and can be directly made via GitHub pull requests. Use the provided template and again try to fill out as much as you can so that your hard work can be reviewed and merged as soon as possible.
 
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/MichaelHettmer/docker-docker-vscode-remote-latex)](https://github.com/MichaelHettmer/docker-docker-vscode-remote-latex/compare)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/MichaelHettmer/docker-vscode-remote-latex)](https://github.com/MichaelHettmer/docker-vscode-remote-latex/compare)
 
 ## Code and style guidelines
 
