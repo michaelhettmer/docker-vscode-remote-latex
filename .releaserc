@@ -32,20 +32,6 @@
                     "CHANGELOG.md"
                 ]
             }
-        ],
-        [
-            "@semantic-release/github",
-            {
-                "assets": [
-                    {
-                        "path": "docker_michaelhettmer_docker-vscode-remote-latex.tar.gz",
-                        "label": "Docker image"
-                    }
-                ],
-                "assignees": [
-                    "MichaelHettmer"
-                ]
-            }
         ]
     ]
 }
