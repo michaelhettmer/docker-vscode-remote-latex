@@ -1,3 +1,20 @@
+# 1.0.0 (2020-08-17)
+
+
+### Bug Fixes
+
+* add apt cleanup to dockerfile ([fa4bfec](https://github.com/MichaelHettmer/docker-vscode-remote-latex/commit/fa4bfecc9191a2fe97360b67aa12999aa9306402))
+* add version pinning for gnupg2 ([714c18f](https://github.com/MichaelHettmer/docker-vscode-remote-latex/commit/714c18f08838d6dce6dec417c92217f7e0acd5aa))
+* configure vscode to always show repositories in sidebar ([cff71d4](https://github.com/MichaelHettmer/docker-vscode-remote-latex/commit/cff71d4541eefbace3cdd877f14accb260ee70b3))
+* correct apt command and avoid additional packages while installing ([26a557a](https://github.com/MichaelHettmer/docker-vscode-remote-latex/commit/26a557af5ed1d8b7c80835f662cc623783388aba))
+* remove .DS_Store ([831af50](https://github.com/MichaelHettmer/docker-vscode-remote-latex/commit/831af5009d82939ce265db3cfd9247f7878b65d1))
+* use correct package name without duplicated "docker" label ([d3057df](https://github.com/MichaelHettmer/docker-vscode-remote-latex/commit/d3057df094803618735097a654eb043e2a7a3984))
+
+
+### Features
+
+* initial commit ([cde0b71](https://github.com/MichaelHettmer/docker-vscode-remote-latex/commit/cde0b7170132156d02262574e11d9c860c52e2a7))
+
 ## [1.1.7](https://github.com/MichaelHettmer/docker-vscode-remote-latex/compare/v1.1.6...v1.1.7) (2020-04-16)
 
 ### Bug Fixes
